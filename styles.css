@@ -1,0 +1,154 @@
+*{
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+body{
+    background-color: rgb(103, 103, 255);
+}
+
+.navbar{
+    background-color: rgba(128, 128, 128, 0.904);
+    width: 15vw;
+    height: 100vh;
+    text-align: center;
+}
+
+.navItem{
+    height: 17vh;
+    color: white;
+    font-weight: bold;
+    font-size: larger;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.active{
+    background-color: rgb(177, 177, 177);
+}
+
+.navItem:hover{
+    background-color: rgb(197, 197, 197);
+}
+
+.indexHead{
+    color: white;
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.content{
+    position: absolute;
+    left: 20vw;
+    top: 6vh;
+    width: 70vw;
+    height: 80vh;
+    border-radius: 15vh;
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.616);
+    border: 3px solid white;
+}
+
+.decor1{
+    position: absolute;
+    top: 40vh;
+    width: 50vw;
+    height: 90vh;
+    border-radius: 50%;
+    z-index: -1;
+    background-color: rgb(167, 0, 0);
+}
+
+.decor2{
+    position: absolute;
+    top: 10vh;
+    left: 120vh;
+    width: 50vw;
+    height: 90vh;
+    border-radius: 50%;
+    z-index: -1;
+    background-color: rgb(14, 167, 0);
+}
+
+.decor3{
+    position: absolute;
+    bottom: 40vh;
+    right: 35vw;
+    width: 50vw;
+    height: 90vh;
+    border-radius: 50%;
+    z-index: -1;
+    background-color: rgb(229, 255, 0);
+}
+
+a{
+    text-decoration: none;
+    color: inherit;
+}
+
+.cvButton{
+    position: relative;
+    top: 30vh;
+    width: 20vw;
+    height: 10vh;
+    border-radius: 15vh;
+    cursor: pointer;
+    color: white;
+    font-size: large;
+    font-weight: 900;
+    background-image: linear-gradient(90deg, rgb(255, 0, 106), rgb(238, 255, 0));
+}
+
+.intro{
+    position: relative;
+    top: 15vh;
+    font-size: 10vh;
+    font-family: "Anton", sans-serif;
+    cursor: pointer;
+}
+
+.specialText{
+    font-family: "Rubik Scribble", sans-serif;
+    cursor: pointer;
+}
+
+.specialText:hover{
+    animation: change-text 1s forwards infinite;
+}
+
+.intro:hover{
+    animation: change-intro 2s;
+}
+
+@keyframes change-text{
+    0%{
+        color: black;
+        -webkit-text-stroke: 0px;
+    }
+
+    50%{
+        color: rgb(255, 41, 77);
+        -webkit-text-stroke: 1px;
+    }
+
+    100%{
+        color: rgb(0, 199, 182);
+        -webkit-text-stroke: 2px;
+    }
+}
+
+@keyframes change-intro{
+
+    50%{
+        color: rgb(255, 39, 75);
+    }
+    100%{
+        color: black;
+    }
+}
+
