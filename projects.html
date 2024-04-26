@@ -1,25 +1,83 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Anton&family=Fjalla+One&family=Rubik+Scribble&display=swap"
+      rel="stylesheet"
+    />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Portfolio</title>
-    <link rel="stylesheet" href="styles.css" >
-</head>
-<body>
-    <div class="content">
-        <h1>Projects</h1>
-    </div>
-    <div class="navbar">
-        <div class="indexHead">INDEX</div>
-        <a href="index.html"><div class="navItem">Home</div></a>
-        <a href="about.html"><div class="navItem">About</div></a>
-        <a href="skills.html"><div class="navItem">Skills</div></a>
-        <div class="navItem active">Projects</div>
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="projects.css" />
+    <link rel="stylesheet" href="social.css" />
+  </head>
+  <body>
+    <div class="navBarContainer">
+      <div class="navBar">
+        <a href="index.html"><div class="navItem">HOME</div></a>
+        <a href="about.html"><div class="navItem">ABOUT</div></a>
+        <a href="skills.html"><div class="navItem">SKILLS</div></a>
+        <div class="navItem active">PROJECTS</div>
         <a href="cv.html"><div class="navItem">CV</div></a>
+      </div>
+      <div class="socialCard">
+        <span>Contact Me</span>
+        <a class="social-link" href="mailto:brendonpillay03@gmail.com">
+          <img src="/assets/Gmail_Icon.png" alt="gmail" />
+        </a>
+        <a class="social-link" target="_blank" href="https://www.linkedin.com/in/brendon-pillay-281082269/">
+          <img src="/assets/linkedin.png" alt="linkedin" />
+        </a>
+        <a class="social-link" href="tel:+27713472385">
+          <img src="/assets/Phone_icon.png" alt="phone" />
+        </a>
+        <a class="social-link" target="_blank" href="https://github.com/brendon9909">
+          <img src="/assets/github.png" alt="github" />
+        </a>
+      </div>
     </div>
-    <div class="decor1"></div>
-    <div class="decor2"></div>
-    <div class="decor3"></div>
-</body>
+    <div class="cardContainer">
+      <div class="card">
+        <div class="projContainer">
+        <div class="proj">
+            <div class="card-details">
+              <p class="text-title">Bank App</p>
+              <p class="text-body">
+                deposit, withdraw, apply bank 
+                charges and add interest
+                into a fictatious bank account.
+              </p><br/><br/><br/>
+              <p style="font-size: smaller;">*Not mobile friendly</p>
+            </div>
+            <a target="_blank" href="https://b-e3e0.onrender.com/"><button class="card-button">Check it out</button></a>
+          </div>
+          <div class="proj">
+            <div class="card-details">
+              <p class="text-title">Nationality Guessor</p>
+              <p class="text-body">
+                Entertainment purpose site
+                that guesses nationality based
+                on your name using an API.</p><br/><br/><br/>
+                <p style="font-size: smaller;">*Not mobile friendly</p>
+            </div>
+            <a target="_blank" href="https://nationality-fevp.onrender.com/"><button class="card-button">Check it out</button></a>
+          </div>
+          <div class="proj">
+            <div class="card-details">
+              <p class="text-title">Weather Estimate</p>
+              <p class="text-body">
+                Demo site that gives 
+                you prediction of weather 
+                based on the city you choose</p><br/><br/><br/>
+                <p style="font-size: smaller;">*Not mobile friendly</p>
+            </div>
+            <a target="_blank" href="https://weather-6unr.onrender.com/"><button class="card-button">Check it out</button></a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
 </html>
