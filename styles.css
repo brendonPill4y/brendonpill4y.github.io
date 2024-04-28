@@ -124,3 +124,13 @@ a{
     color: black;
   }
 }
+
+@media only screen and (max-width: 767px) {
+  .navItem{
+    font-size: 12px;
+  }
+
+  .quote{
+    font-size: 4vh;
+  }
+}

@@ -56,3 +56,9 @@
     width: 1vh;
     transition: .5s
   }
+
+  @media only screen and (max-width: 767px) {
+    .skills{
+      width: 200px;
+    }
+  }
