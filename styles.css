@@ -134,3 +134,8 @@ a{
     font-size: 4vh;
   }
 }
+
+.contactText{
+  position: absolute;
+  top: 85vh;
+}
